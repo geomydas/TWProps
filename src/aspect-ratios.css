@@ -1,0 +1,10 @@
+:root {
+  --aspect-auto: auto;
+  --aspect-square: 1;
+  --aspect-landscape: 4 / 3;
+  --aspect-portrait: 3 / 4;
+  --aspect-widescreen: 16 / 9;
+  --aspect-ultrawide: 18 / 5;
+  --aspect-golden: 1.618 / 1;
+  --aspect-silver: 1 / 1.618;
+}
