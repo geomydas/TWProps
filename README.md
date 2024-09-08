@@ -22,7 +22,7 @@ Literally anyone who is writing CSS or using a CSS framework. From inline styles
 
 ## How to use it
 
-1. Clone this repository
+1. Clone this repository. `git clone git@github.com:geomydas/TailwindProps.git`
 2. Either `@import` or `<link>` the CSS file that you need
 3. Use the CSS variables. I assume you have auto-complete already but if you have experience with TailwindCSS, memorizing them is easy since only a few things have been changed/added. The rest are the same as the TailwindCSS. So if you write `text-sm` in Tailwind, you write `font-size: text-sm` in CSS
 4. Et voila!
