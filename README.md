@@ -39,10 +39,10 @@ More features will be coming soon and feel free to contribute since I'm still a 
 
 ## To-do
 
-- [] Complete all variables
-- [] Make a website
-- [] Make NPM package
-- [] Write better docs
-- [] Get first contributor
-- [] Test for performanced compared to Tailwind, OpenProps, and TailwindProps
-- [] Make more stuff consistent
+- [ ] Complete all variables
+- [ ] Make a website
+- [ ] Make NPM package
+- [ ] Write better docs
+- [ ] Get first contributor
+- [ ] Test for performanced compared to Tailwind, OpenProps, and TailwindProps
+- [ ] Make more stuff consistent
