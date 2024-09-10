@@ -2,7 +2,7 @@
 
 ## What is this?
 
-In short, Open Props but with the naming and units of TailwindCSS
+A CSS library of predefined variable names similar to TailwindCSS naming and similar to OpenProps system with minor deviations.
 
 ## Why did I make this?
 
@@ -14,7 +14,7 @@ It's basically a design system and it helps you write more consistent code.
 
 ## How does it compare with other tools?
 
-Using TailwindCSS @apply feature is almost the same but you need to do much more config and it could be consistent as sometimes you can write and mix Tailwind and Sass. Using Open Props is pretty similar too but it doesn't have all of the units and naming of TailwindCSS
+Using TailwindCSS @apply feature is almost the same but you need to do much more config and it could be inconsistent as sometimes you can mix Tailwind and Sass. Using Open Props is pretty similar too but it doesn't have all of the units and naming of TailwindCSS
 
 ## Who can use this and take advantage of it?
 
@@ -24,8 +24,36 @@ Literally anyone who is writing CSS or using a CSS framework. From inline styles
 
 1. Clone this repository. `git clone git@github.com:geomydas/TailwindProps.git`
 2. Either `@import` or `<link>` the CSS file that you need
-3. Use the CSS variables. I assume you have auto-complete already but if you have experience with TailwindCSS, memorizing them is easy since only a few things have been changed/added. The rest are the same as the TailwindCSS. So if you write `text-sm` in Tailwind, you write `font-size: var(--text-sm` in CSS
+
+```
+<link rel="stylesheet" href="src/color.css">
+@import url("src/color.css")
+```
+
+3. Use the variables!
 4. Et voila!
+
+## Demo Usage
+
+Tailwind Version
+
+```
+<div class="w-full bg-red-400 h-full font-bold"> </div>
+```
+
+TailwindProps Version
+
+```
+<div> </div>
+
+div {
+    width: var(--size-full);
+    height: var(--size-full);
+    background-color: var(--red-400);
+    font-weight: var(--font-bold);
+}
+
+```
 
 ## Advantages
 
