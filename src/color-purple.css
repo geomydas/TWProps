@@ -1,4 +1,4 @@
-:root {
+:where(html) {
   --purple-50: #faf5ff;
   --purple-100: #f3e8ff;
   --purple-200: #e9d5ff;

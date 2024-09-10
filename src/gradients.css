@@ -1,4 +1,4 @@
-:root {
+:where(html) {
   --bg-gradient-1: linear-gradient(
     to bottom right,
     #1f005c,

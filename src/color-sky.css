@@ -1,4 +1,4 @@
-:root {
+:where(html) {
   --sky-50: #f0f9ff;
   --sky-100: #e0f2fe;
   --sky-200: #bae6fd;

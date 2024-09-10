@@ -1,4 +1,4 @@
-:root {
+:where(html) {
   --zinc-50: #fafafa;
   --zinc-100: #f4f4f5;
   --zinc-200: #e4e4e7;

@@ -1,4 +1,4 @@
-:root {
+:where(html) {
   --size-0: 0;
   --size-0_5: 0.125rem;
   --size-1: 0.25rem;

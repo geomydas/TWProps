@@ -1,4 +1,4 @@
-:root {
+:where(html) {
   --teal-50: #f0fdfa;
   --teal-100: #ccfbf1;
   --teal-200: #99f6e4;
