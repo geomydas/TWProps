@@ -46,6 +46,13 @@
   --size-6xl: 72rem;
   --size-7xl: 80rem;
   --size-full: 100%;
+  --size-screen: 100vh;
+  --size-svh: 100svh;
+  --size-lvh: 100lvh;
+  --size-dvh: 100dvh;
+  --size-min: min-content;
+  --size-max: max-content;
+  --size-fit: fit-content;
   --size-min: min-content;
   --size-max: max-content;
   --size-fit: fit-content;

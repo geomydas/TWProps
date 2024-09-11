@@ -11,7 +11,11 @@
     "url": "git+https://github.com/geomydas/TailwindProps.git"
   },
   "keywords": [
-    "library"
+    "library",
+    "tailwindprops",
+    "tailwind",
+    "openprops",
+    "css"
   ],
   "author": "Jiro Geomydas",
   "license": "ISC",
