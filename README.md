@@ -71,6 +71,6 @@ More features will be coming soon and feel free to contribute since I'm still a 
 - [ ] Make a website
 - [ ] Make NPM package
 - [ ] Write better docs
-- [ ] Get first contributor
+- [ ] Get first contributo  r
 - [ ] Test for performanced compared to Tailwind, OpenProps, and TailwindProps
 - [ ] Make more stuff consistent
