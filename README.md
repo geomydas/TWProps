@@ -22,6 +22,8 @@ Literally anyone who is writing CSS or using a CSS framework. From inline styles
 
 ## How to use it
 
+### Option 1
+
 1. Clone this repository. `git clone git@github.com:geomydas/TailwindProps.git`
 2. Either `@import` or `<link>` the CSS file that you need
 
@@ -32,6 +34,15 @@ Literally anyone who is writing CSS or using a CSS framework. From inline styles
 
 3. Use the variables!
 4. Et voila!
+
+### Option 2
+
+1. Install the npm package `npm i geomydas/tailwindprops`
+2. Link or import the CSS file that you need inside `node_modules/@geomydas/tailwindprops/`
+
+```
+<link rel="stylesheet" href="node_modules/@geomydas/tailwindprops/main.css">
+```
 
 ## Demo Usage
 
@@ -63,7 +74,7 @@ div {
 - Basically a design system
 - Best of both worlds (Tailwind & OpenProps)
 
-More features will be coming soon and feel free to contribute since I'm still a noob (_i don't even know how to make a calculator in js level_). Any suggestions, feedback, roasts are welcome!
+More features will be coming soon and feel free to contribute since I'm still a noob *(i don't even know how to do basic javascript)* .Any suggestions, feedback, roasts are welcome!
 
 ## To-do
 
@@ -71,6 +82,6 @@ More features will be coming soon and feel free to contribute since I'm still a 
 - [ ] Make a website
 - [ ] Make NPM package
 - [ ] Write better docs
-- [ ] Get first contributo  r
+- [ ] Get first contributor
 - [ ] Test for performanced compared to Tailwind, OpenProps, and TailwindProps
 - [ ] Make more stuff consistent
