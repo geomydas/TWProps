@@ -97,7 +97,6 @@
   --size-px-72: 288px;
   --size-px-80: 320px;
   --size-px-96: 384px;
-  --size-px-none: none;
   --size-px-xs: 320px;
   --size-px-sm: 384px;
   --size-px-md: 448px;
@@ -110,10 +109,6 @@
   --size-px-6xl: 1152px;
   --size-px-7xl: 1280px;
   --size-px-full: 100%;
-  --size-px-min: min-content;
-  --size-px---max: max-content;
-  --size-px-fit: fit-content;
-  --size-px-prose: 65ch;
   --size-px-screen-sm: 640px;
   --size-px-screen-md: 768px;
   --size-px-screen-lg: 1024px;
