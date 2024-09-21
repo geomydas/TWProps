@@ -1,0 +1,8 @@
+:where(html) {
+  --hue-rotate-0: hue-rotate(0deg);
+  --hue-rotate-15: hue-rotate(15deg);
+  --hue-rotate-30: hue-rotate(30deg);
+  --hue-rotate-60: hue-rotate(60deg);
+  --hue-rotate-90: hue-rotate(90deg);
+  --hue-rotate-180: hue-rotate(180deg);
+}

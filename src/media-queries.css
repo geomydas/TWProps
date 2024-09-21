@@ -29,6 +29,3 @@
 @custom-media --lg (64rem);
 @custom-media --xl (80rem);
 @custom-media --2xl (90rem);
-
-/* smh, why complicate media queries lol, just use min-width and go mobile design bruh, also fuck you 
-if you are using media queries in px cuz thats not accesible*/

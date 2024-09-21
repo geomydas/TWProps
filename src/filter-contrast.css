@@ -1,0 +1,9 @@
+:where(html) {
+  --contrast-0: contrast(0);
+  --contrast-50: contrast(0.5);
+  --contrast-75: contrast(0.75);
+  --contrast-100: contrast(1);
+  --contrast-125: contrast(1.25);
+  --contrast-150: contrast(1.5);
+  --contrast-200: contrast(2);
+}
