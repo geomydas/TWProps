@@ -24,8 +24,8 @@
 @custom-media --pointer (hover) and (pointer: coarse);
 @custom-media --mouse (hover) and (pointer: fine);
 
-@custom-media --sm (40rem);
-@custom-media --md (48rem);
-@custom-media --lg (64rem);
-@custom-media --xl (80rem);
-@custom-media --2xl (90rem);
+@custom-media --sm (min-width: 40rem);
+@custom-media --md (min-width: 48rem);
+@custom-media --lg (min-width: 64rem);
+@custom-media --xl (min-width: 80rem);
+@custom-media --2xl (min-width: 90rem);
