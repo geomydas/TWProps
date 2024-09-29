@@ -1,31 +1,5 @@
-@custom-media --motionOK (prefers-reduced-motion: no-preference);
-@custom-media --motionNotOK (prefers-reduced-motion: reduce);
-@custom-media --opacityOK (prefers-reduced-transparency: no-preference);
-@custom-media --opacityNotOK (prefers-reduced-transparency: reduce);
-@custom-media --useDataOK (prefers-reduced-data: no-preference);
-@custom-media --useDataNotOK (prefers-reduced-data: reduce);
-
-@custom-media --OSdark (prefers-color-scheme: dark);
-@custom-media --OSlight (prefers-color-scheme: light);
-
-@custom-media --highContrast (prefers-contrast: more);
-@custom-media --lowContrast (prefers-contrast: less);
-
-@custom-media --invertedColors (inverted-colors: inverted);
-@custom-media --forcedColors (forced-colors: active);
-
-@custom-media --portrait (orientation: portrait);
-@custom-media --landscape (orientation: landscape);
-
-@custom-media --HDcolor (dynamic-range: high) or (color-gamut: p3);
-
-@custom-media --touch (hover: none) and (pointer: coarse);
-@custom-media --stylus (hover: none) and (pointer: fine);
-@custom-media --pointer (hover) and (pointer: coarse);
-@custom-media --mouse (hover) and (pointer: fine);
-
-@custom-media --sm (min-width: 40rem);
-@custom-media --md (min-width: 48rem);
-@custom-media --lg (min-width: 64rem);
-@custom-media --xl (min-width: 80rem);
-@custom-media --2xl (min-width: 90rem);
+@custom-media --breakpoint-sm (min-width: 40rem);
+@custom-media --breakpoint-md (min-width: 48rem);
+@custom-media --breakpoint-lg (min-width: 64rem);
+@custom-media --breakpoint-xl (min-width: 80rem);
+@custom-media --breakpoint-2xl (min-width: 90rem);
