@@ -79,6 +79,12 @@ Literally anyone who is writing CSS or using a CSS framework. From inline styles
 
 8. Et voila!
 
+
+## Optimizing for Production
+
+All of the variables take up atleast 600+ lines of code and is 14kb minified without Gzip nor Brotli compression. You can use PurgeCSS to remove all of the unused variables since TailwindProps doesn't have a just-in-time feature at the moment. Just use their docs instead of a guide here. 
+
+
 ## Demo Usage
 
 **Tailwind Version**
