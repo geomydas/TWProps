@@ -1,58 +1,60 @@
 # TailwindProps
 
-## What is this? 
+## What is this?
 
 A CSS library of predefined variable names similar to TailwindCSS naming and similar to OpenProps system with minor deviations.
 
-## Why did I make this? 
+## Why did I make this?
 
 I was using TailwindCSS and sometimes Open Props in my projects before. I liked Tailwind and the units and colors were perfect but I felt like the HTML was too messy, I liked Open Props too but I was used with the naming and units of TailwindCSS classes. With this, it is similar to Open Props but using tailwind-like naming and units.
 
-## What does it help you with? 
+## What does it help you with?
 
 It's basically a design system and it helps you write more consistent code.
 
-## How does it compare with other tools? 
+## How does it compare with other tools?
 
 Using TailwindCSS @apply feature is almost the same but you need to do much more config and it could be inconsistent as sometimes you can mix Tailwind and Sass. Using Open Props is pretty similar too but it doesn't have all of the units and naming of TailwindCSS
 
-## Who can use this and take advantage of it? 
+## Who can use this and take advantage of it?
 
 Literally anyone who is writing CSS or using a CSS framework. From inline styles, to Sass, and Tailwind arbitrary values
 
-## Usage 
+## Usage
 
-### Option 1 (NPM Package) 
+### Option 1 (NPM Package)
 
 1. Install the npm package `npm i geomydas/tailwindprops`
-2. Link or import the CSS file that you need inside `node_modules/@geomydas/tailwindprops/`
+2. Link or import the CSS file that you need inside `node_modules/@geomydas/tailwindprops/replaceThis.css`
 
 ```
-<link rel="stylesheet" href="/node_modules/@geomydas/tailwindprops/src/minified-main.css">
+<link rel="stylesheet" href="/node_modules/@geomydas/tailwindprops/src/replaceThis.css">
 ```
 
 ```
-@import url('/node-modules/@geomydas/tailwindprops/src/minified-main.css')
+@import url('/node-modules/@geomydas/tailwindprops/src/replaceThis.css')
 ```
 
-### Option 2 (Unpkg CDN) 
+### Option 2 (Unpkg CDN)
 
 1. Add this line inside your `<head>` or either `@import` in your CSS
 
 ```
 <link
   rel="stylesheet"
-  href="https://unpkg.com/@geomydas/tailwindprops@1.0.8/src/minified-main.css"
+  href="https://unpkg.com/@geomydas/tailwindprops@1.0.8/src/replaceThis.css"
 />
 ```
 
 ```
-@import url("https://unpkg.com/@geomydas/tailwindprops@1.0.8/src/minified-main.css")
+@import url("https://unpkg.com/@geomydas/tailwindprops@1.0.8/src/replaceThis.css")
 ```
 
 2. Et viola!
 
-## Tooling & Autocomplete _(VSCode Only!)_ 
+The list of CSS files that you can use can be found [here](./list-of-css-files.md)
+
+## Tooling & Autocomplete _(VSCode Only!)_
 
 1. Install this [extension](https://marketplace.visualstudio.com/items?itemName=vunguyentuan.vscode-css-variables).
 2. Go inside the extensions tab (Ctrl + Shift + X).
@@ -79,19 +81,19 @@ Literally anyone who is writing CSS or using a CSS framework. From inline styles
 
 8. Et voila!
 
-## Optimizing for Production 
+## Optimizing for Production
 
 All of the variables take up atleast 600+ lines of code and is 14kb minified without Gzip nor Brotli compression. You can use PurgeCSS to remove all of the unused variables since TailwindProps doesn't have a just-in-time feature at the moment. Just use their docs instead of a guide here.
 
-## Demo Usage 
+## Demo Usage
 
-**Tailwind Version**
+### Tailwind Version
 
 ```
 <div class="w-full bg-red-400 h-full font-bold"> </div>
 ```
 
-**TailwindProps Version**
+### TailwindProps Version
 
 ```
 <div> </div>
@@ -104,7 +106,7 @@ div {
 }
 ```
 
-## Advantages 
+## Advantages
 
 - Use TailwindCSS classes as variables instead of @apply
 - Less config
@@ -113,7 +115,7 @@ div {
 
 More features will be coming! Feel free to contribue by either making an issue or a pull request. Any suggestions, feedback, roasts are welcome!
 
-## To-do 
+## To-do
 
 - [x] Complete all variables
 - [ ] Make a website
