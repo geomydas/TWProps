@@ -20,56 +20,73 @@ Using TailwindCSS @apply feature is almost the same but you need to do much more
 
 Literally anyone who is writing CSS or using a CSS framework. From inline styles, to Sass, and Tailwind arbitrary values
 
-## How to use it
+## Usage
 
-### Option 1 (Clone Repo)
-
-1. Clone this repository. `git clone git@github.com:geomydas/TailwindProps.git`
-2. Either `@import` or `<link>` the CSS file that you need
-
-```
-<link rel="stylesheet" href="src/color.css">
-@import url("src/color.css")
-```
-
-3. Use the variables!
-4. Et voila!
-
-### Option 2 (NPM Package)
+### Option 1 (NPM Package)
 
 1. Install the npm package `npm i geomydas/tailwindprops`
 2. Link or import the CSS file that you need inside `node_modules/@geomydas/tailwindprops/`
 
 ```
-<link rel="stylesheet" href="node_modules/@geomydas/tailwindprops/main.css">
+<link rel="stylesheet" href="/node_modules/@geomydas/tailwindprops/src/minified-main.css">
 ```
 
-### Option 3 (Unpkg CDN)
+```
+@import url('/node-modules/@geomydas/tailwindprops/src/minified-main.css')
+```
+
+### Option 2 (Unpkg CDN)
 
 1. Add this line inside your `<head>` or either `@import` in your CSS
 
 ```
 <link
   rel="stylesheet"
-  href="https://unpkg.com/@geomydas/tailwindprops@1.0.7/src/minified-main.css"
+  href="https://unpkg.com/@geomydas/tailwindprops@1.0.8/src/minified-main.css"
 />
 ```
 
 ```
-@import url("https://unpkg.com/@geomydas/tailwindprops@1.0.7/src/minified-main.css")
+@import url("https://unpkg.com/@geomydas/tailwindprops@1.0.8/src/minified-main.css")
 ```
 
 2. Et viola!
 
+## Tooling & Autocomplete _(VSCode Only!)_
+
+1. Install this [extension].
+2. Go inside the extensions tab (Ctrl + Shift + X).
+3. Find the extension.
+4. Click on the settings icon (cog) and a modal will appear.
+5. Click "Extension Settings".
+6. Go to "CSS Variables: Blacklist Folders" and open it inside `settings.json`.
+7. Delete the line that contains `node_modules` inside the array.
+
+```
+  "cssVariables.blacklistFolders": [
+    "**/.git",
+    "**/.svn",
+    "**/.hg",
+    "**/CVS",
+    "**/.DS_Store",
+    "**/node_modules",
+    "**/bower_components",
+    "**/tmp",
+    "**/dist",
+    "**/tests"
+  ],
+```
+8. Et voila!
+
 ## Demo Usage
 
-Tailwind Version
+**Tailwind Version**
 
 ```
 <div class="w-full bg-red-400 h-full font-bold"> </div>
 ```
 
-TailwindProps Version
+**TailwindProps Version**
 
 ```
 <div> </div>
