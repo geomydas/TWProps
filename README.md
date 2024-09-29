@@ -54,7 +54,7 @@ Literally anyone who is writing CSS or using a CSS framework. From inline styles
 
 ## Tooling & Autocomplete _(VSCode Only!)_
 
-1. Install this [extension].
+1. Install this [extension](https://marketplace.visualstudio.com/items?itemName=vunguyentuan.vscode-css-variables).
 2. Go inside the extensions tab (Ctrl + Shift + X).
 3. Find the extension.
 4. Click on the settings icon (cog) and a modal will appear.
@@ -76,6 +76,7 @@ Literally anyone who is writing CSS or using a CSS framework. From inline styles
     "**/tests"
   ],
 ```
+
 8. Et voila!
 
 ## Demo Usage
