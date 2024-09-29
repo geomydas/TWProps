@@ -22,7 +22,7 @@ Literally anyone who is writing CSS or using a CSS framework. From inline styles
 
 ## How to use it
 
-### Option 1
+### Option 1 (Clone Repo)
 
 1. Clone this repository. `git clone git@github.com:geomydas/TailwindProps.git`
 2. Either `@import` or `<link>` the CSS file that you need
@@ -35,7 +35,7 @@ Literally anyone who is writing CSS or using a CSS framework. From inline styles
 3. Use the variables!
 4. Et voila!
 
-### Option 2
+### Option 2 (NPM Package)
 
 1. Install the npm package `npm i geomydas/tailwindprops`
 2. Link or import the CSS file that you need inside `node_modules/@geomydas/tailwindprops/`
@@ -43,6 +43,23 @@ Literally anyone who is writing CSS or using a CSS framework. From inline styles
 ```
 <link rel="stylesheet" href="node_modules/@geomydas/tailwindprops/main.css">
 ```
+
+### Option 3 (Unpkg CDN)
+
+1. Add this line inside your `<head>` or either `@import` in your CSS
+
+```
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/@geomydas/tailwindprops@1.0.7/src/minified-main.css"
+/>
+```
+
+```
+@import url("https://unpkg.com/@geomydas/tailwindprops@1.0.7/src/minified-main.css")
+```
+
+2. Et viola!
 
 ## Demo Usage
 
@@ -58,8 +75,8 @@ TailwindProps Version
 <div> </div>
 
 div {
-    width: var(--size-full);
-    height: var(--size-full);
+    width: var(--spacing-full);
+    height: var(--spacing-full);
     background-color: var(--red-400);
     font-weight: var(--font-bold);
 }
@@ -71,10 +88,9 @@ div {
 - Use TailwindCSS classes as variables instead of @apply
 - Less config
 - Framework agnostic
-- Basically a design system
 - Best of both worlds (Tailwind & OpenProps)
 
-More features will be coming soon and feel free to contribute since I'm still a noob *(i don't even know how to do basic javascript)* .Any suggestions, feedback, roasts are welcome!
+More features will be coming! Feel free to contribue by either making an issue or a pull request. Any suggestions, feedback, roasts are welcome!
 
 ## To-do
 
