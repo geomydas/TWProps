@@ -1,28 +1,45 @@
 # TailwindProps
 
-## What is this?
+## Table of Contents
+
+1. FAQ
+   - [What is this?](#what-is-this)
+   - [Why did I make this?](#why-did-i-make-this)
+   - [What does it help you with?](#what-does-it-help-you-with)
+   - [How does it compare with other tools?](#how-does-it-compare-with-other-tools_)
+   - [Who can use this and take advantage of it?](#who-can-use-this-and-take-advantage-of-it)
+2. Usage
+   1. [Option 1 (NPM Package)](#option-1-npm-package)
+   2. [Option 2 (Unpkg CDN)](#option-2-unpkg-cdn)
+3. [Tooling & Autocomplete](#tooling-and-autocomplete)
+4. [Optimizing for Production](#optimizing-for-production)
+5. [Demo Usage](#demo-usage)
+6. [Advantages](#advantages)
+7. [To-do](#to-do)
+
+## What is this? {#what-is-this}
 
 A CSS library of predefined variable names similar to TailwindCSS naming and similar to OpenProps system with minor deviations.
 
-## Why did I make this?
+## Why did I make this? {#why-did-i-make-this}
 
 I was using TailwindCSS and sometimes Open Props in my projects before. I liked Tailwind and the units and colors were perfect but I felt like the HTML was too messy, I liked Open Props too but I was used with the naming and units of TailwindCSS classes. With this, it is similar to Open Props but using tailwind-like naming and units.
 
-## What does it help you with?
+## What does it help you with? {#what-does-it-help-you-with}
 
 It's basically a design system and it helps you write more consistent code.
 
-## How does it compare with other tools?
+## How does it compare with other tools? {#how-does-it-compare-with-other-tools}
 
 Using TailwindCSS @apply feature is almost the same but you need to do much more config and it could be inconsistent as sometimes you can mix Tailwind and Sass. Using Open Props is pretty similar too but it doesn't have all of the units and naming of TailwindCSS
 
-## Who can use this and take advantage of it?
+## Who can use this and take advantage of it? {#who-can-use-this-and-take-advantage-of-it}
 
 Literally anyone who is writing CSS or using a CSS framework. From inline styles, to Sass, and Tailwind arbitrary values
 
-## Usage
+## Usage {#usage}
 
-### Option 1 (NPM Package)
+### Option 1 (NPM Package) {#option-1-npm-package}
 
 1. Install the npm package `npm i geomydas/tailwindprops`
 2. Link or import the CSS file that you need inside `node_modules/@geomydas/tailwindprops/`
@@ -35,7 +52,7 @@ Literally anyone who is writing CSS or using a CSS framework. From inline styles
 @import url('/node-modules/@geomydas/tailwindprops/src/minified-main.css')
 ```
 
-### Option 2 (Unpkg CDN)
+### Option 2 (Unpkg CDN) {#option-2-unpkg-cdn}
 
 1. Add this line inside your `<head>` or either `@import` in your CSS
 
@@ -52,7 +69,7 @@ Literally anyone who is writing CSS or using a CSS framework. From inline styles
 
 2. Et viola!
 
-## Tooling & Autocomplete _(VSCode Only!)_
+## Tooling & Autocomplete _(VSCode Only!)_ {#tooling-and-autocomplete}
 
 1. Install this [extension](https://marketplace.visualstudio.com/items?itemName=vunguyentuan.vscode-css-variables).
 2. Go inside the extensions tab (Ctrl + Shift + X).
@@ -79,13 +96,11 @@ Literally anyone who is writing CSS or using a CSS framework. From inline styles
 
 8. Et voila!
 
+## Optimizing for Production {#optimizing-for-production}
 
-## Optimizing for Production
+All of the variables take up atleast 600+ lines of code and is 14kb minified without Gzip nor Brotli compression. You can use PurgeCSS to remove all of the unused variables since TailwindProps doesn't have a just-in-time feature at the moment. Just use their docs instead of a guide here.
 
-All of the variables take up atleast 600+ lines of code and is 14kb minified without Gzip nor Brotli compression. You can use PurgeCSS to remove all of the unused variables since TailwindProps doesn't have a just-in-time feature at the moment. Just use their docs instead of a guide here. 
-
-
-## Demo Usage
+## Demo Usage {#demo-usage}
 
 **Tailwind Version**
 
@@ -104,10 +119,9 @@ div {
     background-color: var(--red-400);
     font-weight: var(--font-bold);
 }
-
 ```
 
-## Advantages
+## Advantages {#advantages}
 
 - Use TailwindCSS classes as variables instead of @apply
 - Less config
@@ -116,7 +130,7 @@ div {
 
 More features will be coming! Feel free to contribue by either making an issue or a pull request. Any suggestions, feedback, roasts are welcome!
 
-## To-do
+## To-do {#to-do}
 
 - [x] Complete all variables
 - [ ] Make a website
