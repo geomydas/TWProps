@@ -42,12 +42,12 @@ Literally anyone who is writing CSS or using a CSS framework. From inline styles
 ```
 <link
   rel="stylesheet"
-  href="https://unpkg.com/@geomydas/tailwindprops@1.1.9/src/replaceThis.css"
+  href="https://unpkg.com/@geomydas/tailwindprops@1.1.10/src/replaceThis.css"
 />
 ```
 
 ```
-@import url("https://unpkg.com/@geomydas/tailwindprops@1.1.9/src/replaceThis.css")
+@import url("https://unpkg.com/@geomydas/tailwindprops@1.1.10/src/replaceThis.css")
 ```
 
 2. Et viola!
