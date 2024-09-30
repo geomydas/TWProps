@@ -54,6 +54,8 @@ Literally anyone who is writing CSS or using a CSS framework. From inline styles
 
 The list of CSS files that you can use can be found [here](./list-of-css-files.md)
 
+The list of variables and their values that you can use can be found [here](./list-of-variables.md)
+
 ## Tooling & Autocomplete _(VSCode Only!)_
 
 1. Install this [extension](https://marketplace.visualstudio.com/items?itemName=vunguyentuan.vscode-css-variables).
