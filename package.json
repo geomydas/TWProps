@@ -1,6 +1,6 @@
 {
   "name": "twprops",
-  "version": "1.1.16",
+  "version": "2.1.16",
   "description": "A CSS library mixing OpenProps usage and TailwindCSS naming and units",
   "license": "MIT",
   "main": "index.js",
