@@ -42,12 +42,12 @@ Literally anyone who is writing CSS or using a CSS framework. From inline styles
 ```
 <link
   rel="stylesheet"
-  href="https://unpkg.com/@geomydas/tailwindprops@1.1.10/src/replaceThis.css"
+  href="https://unpkg.com/@geomydas/tailwindprops@1.1.11/src/replaceThis.css"
 />
 ```
 
 ```
-@import url("https://unpkg.com/@geomydas/tailwindprops@1.1.10/src/replaceThis.css")
+@import url("https://unpkg.com/@geomydas/tailwindprops@1.1.11/src/replaceThis.css")
 ```
 
 2. Et viola!
@@ -101,8 +101,7 @@ All of the variables take up atleast 600+ lines of code and is 14kb minified wit
 <div> </div>
 
 div {
-    width: var(--spacing-full);
-    height: var(--spacing-full);
+    width: var(--spacing-full); height: var(--spacing-full);
     background-color: var(--red-400);
     font-weight: var(--font-bold);
 }

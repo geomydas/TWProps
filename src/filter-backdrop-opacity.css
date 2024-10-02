@@ -1,4 +1,4 @@
-:where(html) {
+:root {
   --backdrop-opacity-0: opacity(0);
   --backdrop-opacity-5: opacity(0.05);
   --backdrop-opacity-10: opacity(0.1);

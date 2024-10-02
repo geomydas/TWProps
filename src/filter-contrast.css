@@ -1,4 +1,4 @@
-:where(html) {
+:root {
   --contrast-0: contrast(0);
   --contrast-50: contrast(0.5);
   --contrast-75: contrast(0.75);

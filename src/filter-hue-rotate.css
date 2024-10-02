@@ -1,4 +1,4 @@
-:where(html) {
+:root {
   --hue-rotate-0: hue-rotate(0deg);
   --hue-rotate-15: hue-rotate(15deg);
   --hue-rotate-30: hue-rotate(30deg);

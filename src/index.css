@@ -1,4 +1,4 @@
-:where(html) {
+:root {
   --animate-none: none;
   --animate-spin: spin 1s linear infinite;
   --animate-ping: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
@@ -323,6 +323,8 @@
   --saturate-200: saturate(2);
   --sepia-0: sepia(0);
   --sepia: sepia(100%);
+  --backdrop-sepia-0: sepia(0);
+  --backdrop-filter: sepia(100%);
   --backdrop-blur-sm: blur(4px);
   --backdrop-blur: blur(8px);
   --backdrop-blur-md: blur(12px);
@@ -384,7 +386,6 @@
   --backdrop-saturate-100: saturate(1);
   --backdrop-saturate-150: saturate(1.5);
   --backdrop-saturate-200: saturate(2);
-  --backdrop-sepia-0: sepia(0);
   --backdrop-sepia: sepia(100%);
   --grid-1: repeat(1, minmax(0, 1fr));
   --grid-2: repeat(2, minmax(0, 1fr));
@@ -628,6 +629,7 @@
   --text-8xl-line-height: 1;
   --text-9xl-line-height: 1;
 }
+
 @keyframes spin {
   0% {
     transform: rotate(0);
@@ -636,6 +638,7 @@
     transform: rotate(360deg);
   }
 }
+
 @keyframes ping {
   75%,
   to {
@@ -643,6 +646,7 @@
     transform: scale(2);
   }
 }
+
 @keyframes pulse {
   0%,
   to {
@@ -652,6 +656,7 @@
     opacity: 0.5;
   }
 }
+
 @keyframes bounce {
   0%,
   to {

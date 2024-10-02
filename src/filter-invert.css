@@ -1,4 +1,4 @@
-:where(html) {
+:root {
   --invert-0: invert(0);
   --invert: invert(100%);
 }

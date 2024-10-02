@@ -1,4 +1,4 @@
-:where(html) {
+:root {
   --backdrop-grayscale-0: grayscale(0);
   --backdrop-grayscale: grayscale(100%);
 }

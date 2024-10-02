@@ -1,4 +1,4 @@
-:where(html) {
+:root {
   --rounded-none: 0;
   --rounded-sm: 0.125rem;
   --rounded: 0.25rem;

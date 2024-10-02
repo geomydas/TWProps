@@ -1,4 +1,4 @@
-:where(html) {
+:root {
   --blur-sm: blur(4px);
   --blur: blur(8px);
   --blur-md: blur(12px);
