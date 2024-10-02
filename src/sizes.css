@@ -84,6 +84,7 @@
   --spacing-min: min-content;
   --spacing-max: max-content;
   --spacing-fit: fit-content;
+  --spacing-auto: auto;
   --spacing-prose: 65ch;
   --spacing-screen-sm: 40rem;
   --spacing-screen-md: 48rem;
