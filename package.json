@@ -2,6 +2,7 @@
   "name": "@geomydas/tailwindprops",
   "version": "1.1.13",
   "description": "A CSS library mixing OpenProps usage and TailwindCSS naming and units",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,7 +19,9 @@
     "css"
   ],
   "author": "Jiro Geomydas",
-  "license": "ISC",
+  "exports": {
+    "./*": "./*"
+  },
   "bugs": {
     "url": "https://github.com/geomydas/TailwindProps/issues"
   },
