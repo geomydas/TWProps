@@ -1,6 +1,6 @@
 {
   "name": "@geomydas/tailwindprops",
-  "version": "1.1.11",
+  "version": "1.1.12",
   "description": "A CSS library mixing OpenProps usage and TailwindCSS naming and units",
   "main": "index.js",
   "scripts": {
