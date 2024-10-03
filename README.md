@@ -2,37 +2,41 @@
 
 ## What is this?
 
-A CSS library of predefined variable names similar to TailwindCSS naming and similar to OpenProps system with minor deviations.
+A CSS library of predefined variable names similar to TailwindCSS naming and similar to OpenProps system with minor deviations from the naming scheme.
 
 ## Why did I make this?
 
-I was using TailwindCSS and sometimes Open Props in my projects before. I liked Tailwind and the units and colors were perfect but I felt like the HTML was too messy, I liked Open Props too but I was used with the naming and units of TailwindCSS classes. With this, it is similar to Open Props but using tailwind-like naming and units.
+I was using Tailwind in some of my projects, and Open Props in my project before. I liked Tailwind and the naming and units were perfect but I felt like the HTML was too messy. I liked Open Props too but I preferred the naming and units of Tailwind. With this, it is the same concept as Open Props but with Tailwind's naming and units
 
 ## What does it help you with?
 
-It's basically a design system and it helps you write more consistent code.
+It forces you to write more consistent code using variables instead of using magic numbers.
 
 ## How does it compare with other tools?
 
-Using TailwindCSS @apply feature is almost the same but you need to do much more config and it could be inconsistent as sometimes you can mix Tailwind and Sass. Using Open Props is pretty similar too but it doesn't have all of the units and naming of TailwindCSS
+Using Tailwind's @apply feature is quite similar but you have to do more config. @apply isn't reccomended either and might be deprecated in the future. Using Open Props is similar too but it doesn't have the naming and units of Tailwind
 
 ## Who can use this and take advantage of it?
 
-Literally anyone who is writing CSS or using a CSS framework. From inline styles, to Sass, and Tailwind arbitrary values
+Anyone who is writing CSS. Inline styles, Sass, Tailwind arbitrary values, etc.
+
+## Browse CDN
+
+- [https://unpkg.com/twprops/](https://unpkg.com/twprops/)
 
 ## Usage
 
 ### Option 1 (NPM Package)
 
-1. Install the npm package `npm i geomydas/tailwindprops`
-2. Link or import the CSS file that you need inside `node_modules/@geomydas/tailwindprops/replaceThis.css`
+1. Install the npm package `npm i twprops`
+2. Link or import the CSS file that you need inside `node_modules/twprops/`
 
 ```
-<link rel="stylesheet" href="/node_modules/@geomydas/tailwindprops/src/replaceThis.css">
+<link rel="stylesheet" href="/node_modules/twprops/">
 ```
 
 ```
-@import url('/node-modules/@geomydas/tailwindprops/src/replaceThis.css')
+@import url('/node-modules/twprops/')
 ```
 
 ### Option 2 (Unpkg CDN)
@@ -42,19 +46,13 @@ Literally anyone who is writing CSS or using a CSS framework. From inline styles
 ```
 <link
   rel="stylesheet"
-  href="https://unpkg.com/@geomydas/tailwindprops@1.1.12/src/replaceThis.css"
+  href="https://unpkg.com/twprops/twprops.min.css"
 />
 ```
 
 ```
-@import url("https://unpkg.com/@geomydas/tailwindprops@1.1.12/src/replaceThis.css")
+@import url("https://unpkg.com/twprops/twprops.min.css")
 ```
-
-2. Et viola!
-
-The list of CSS files that you can use can be found [here](./list-of-css-files.md)
-
-The list of variables and their values that you can use can be found [here](./list-of-variables.md)
 
 ## Tooling & Autocomplete _(VSCode Only!)_
 
@@ -68,20 +66,11 @@ The list of variables and their values that you can use can be found [here](./li
 
 ```
   "cssVariables.blacklistFolders": [
-    "**/.git",
-    "**/.svn",
-    "**/.hg",
-    "**/CVS",
-    "**/.DS_Store",
+    // Some stuff here
     "**/node_modules",
-    "**/bower_components",
-    "**/tmp",
-    "**/dist",
-    "**/tests"
+    // Some stuff here also
   ],
 ```
-
-8. Et voila!
 
 ## Optimizing for Production
 
@@ -101,7 +90,8 @@ All of the variables take up atleast 600+ lines of code and is 14kb minified wit
 <div> </div>
 
 div {
-    width: var(--spacing-full); height: var(--spacing-full);
+    width: var(--spacing-full);
+    height: var(--spacing-full);
     background-color: var(--red-400);
     font-weight: var(--font-bold);
 }
@@ -109,12 +99,9 @@ div {
 
 ## Advantages
 
-- Use TailwindCSS classes as variables instead of @apply
 - Less config
 - Framework agnostic
-- Best of both worlds (Tailwind & OpenProps)
-
-More features will be coming! Feel free to contribue by either making an issue or a pull request. Any suggestions, feedback, roasts are welcome!
+- Best of both worlds! (Tailwind & OpenProps)
 
 ## To-do
 
