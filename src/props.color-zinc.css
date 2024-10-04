@@ -1,4 +1,4 @@
-:root {
+:where(html) {
   --color-zinc-50: #fafafa;
   --color-zinc-100: #f4f4f5;
   --color-zinc-200: #e4e4e7;

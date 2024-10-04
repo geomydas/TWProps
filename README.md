@@ -1,4 +1,4 @@
-# TailwindProps
+# TajilwindProps
 
 ## What is this?
 
@@ -29,29 +29,33 @@ Anyone who is writing CSS. Inline styles, Sass, Tailwind arbitrary values, etc.
 ### Option 1 (NPM Package)
 
 1. Install the npm package `npm i twprops`
-2. Link or import the CSS file that you need inside `node_modules/twprops/`
+2. Import the CSS file you need inside `node_modules/twprops/`
+
+   ```
+   @import "/node_modules/twprops/"
+   ```
+
+### Option 2 (NPM Package + PostCSS JIT Props)
+
+1. Install PostCSS JIT Props
 
 ```
-<link rel="stylesheet" href="/node_modules/twprops/">
+npm install postcss-jit-props
 ```
 
-```
-@import url('/node-modules/twprops/')
-```
-
-### Option 2 (Unpkg CDN)
-
-1. Add this line inside your `<head>` or either `@import` in your CSS
+2. Add the following lines of code inside your `postcss.config.js`
 
 ```
-<link
-  rel="stylesheet"
-  href="https://unpkg.com/twprops/twprops.min.css"
-/>
-```
+// postcss.config.js
 
 ```
-@import url("https://unpkg.com/twprops/twprops.min.css")
+
+### Option 3 (Unpkg CDN)
+
+1. Add this line in your CSS
+
+```
+@import "https://unpkg.com/twprops/twprops.min.css"
 ```
 
 ## Tooling & Autocomplete _(VSCode Only!)_
@@ -64,13 +68,13 @@ Anyone who is writing CSS. Inline styles, Sass, Tailwind arbitrary values, etc.
 6. Go to "CSS Variables: Blacklist Folders" and open it inside `settings.json`.
 7. Delete the line that contains `node_modules` inside the array.
 
-```
-  "cssVariables.blacklistFolders": [
-    // Some stuff here
-    "**/node_modules",
-    // Some stuff here also
-  ],
-```
+   ```
+   "cssVariables.blacklistFolders": [
+      // Some stuff here
+      "**/node_modules",
+      // Some stuff here also
+   ],
+   ```
 
 ## Optimizing for Production
 
@@ -81,6 +85,7 @@ All of the variables take up atleast 600+ lines of code and is 14kb minified wit
 ### Tailwind Version
 
 ```
+
 <div class="w-full bg-red-400 h-full font-bold"> </div>
 ```
 

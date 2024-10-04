@@ -1,4 +1,4 @@
-:root {
+:where(html) {
   --spacing-0: 0;
   --spacing-0_5: 0.125rem;
   --spacing-1: 0.25rem;

@@ -1,4 +1,4 @@
-:root {
+:where(html) {
   --duration-0: 0s;
   --duration-75: 75ms;
   --duration-100: 100ms;

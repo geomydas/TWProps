@@ -1,4 +1,4 @@
-:root {
+:where(html) {
   --backdrop-invert-0: invert(0);
   --backdrop-invert: invert(100%);
 }

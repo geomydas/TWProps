@@ -1,4 +1,4 @@
-:root {
+:where(html) {
   --color-emerald-50: #ecfdf5;
   --color-emerald-100: #d1fae5;
   --color-emerald-200: #a7f3d0;

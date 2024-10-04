@@ -1,4 +1,4 @@
-:root {
+:where(html) {
   --backdrop-blur-none: ;
   --backdrop-blur-sm: blur(4px);
   --backdrop-blur: blur(8px);

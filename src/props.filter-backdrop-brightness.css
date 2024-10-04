@@ -1,4 +1,4 @@
-:root {
+:where(html) {
   --backdrop-brightness-0: brightness(0);
   --backdrop-brightness-50: brightness(0.5);
   --backdrop-brightness-75: brightness(0.75);

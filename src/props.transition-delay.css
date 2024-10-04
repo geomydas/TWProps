@@ -1,4 +1,4 @@
-:root {
+:where(html) {
   --delay-0: 0s;
   --delay-75: 75ms;
   --delay-100: 100ms;

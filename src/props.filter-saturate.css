@@ -1,4 +1,4 @@
-:root {
+:where(html) {
   --saturate-0: saturate(0);
   --saturate-50: saturate(0.5);
   --saturate-100: saturate(1);

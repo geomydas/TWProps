@@ -1,4 +1,4 @@
-:root {
+:where(html) {
   --color-red-50: #fef2f2;
   --color-red-100: #fee2e2;
   --color-red-200: #fecaca;

@@ -1,4 +1,4 @@
-:root {
+:where(html) {
   --tracking-tighter: -0.05em;
   --tracking-tight: -0.025em;
   --tracking-normal: 0;
