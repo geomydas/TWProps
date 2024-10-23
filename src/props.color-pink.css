@@ -1,4 +1,4 @@
-:where(html) {
+*:where(html) {
   --color-pink-50: #fdf2f8;
   --color-pink-100: #fce7f3;
   --color-pink-200: #fbcfe8;

@@ -1,4 +1,4 @@
-:where(html) {
+*:where(html) {
   --color-indigo-50: #eef2ff;
   --color-indigo-100: #e0e7ff;
   --color-indigo-200: #c7d2fe;

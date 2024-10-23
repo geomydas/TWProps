@@ -1,4 +1,4 @@
-:where(html) {
+*:where(html) {
   --animate-none: none;
   --animate-spin: spin 1s linear infinite;
   --animate-ping: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;

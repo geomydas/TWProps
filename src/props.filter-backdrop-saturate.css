@@ -1,4 +1,4 @@
-:where(html) {
+*:where(html) {
   --backdrop-saturate-0: saturate(0);
   --backdrop-saturate-50: saturate(0.5);
   --backdrop-saturate-100: saturate(1);

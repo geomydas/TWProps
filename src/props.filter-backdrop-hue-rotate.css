@@ -1,4 +1,4 @@
-:where(html) {
+*:where(html) {
   --backdrop-hue-rotate-0: hue-rotate(0deg);
   --backdrop-hue-rotate-15: hue-rotate(15deg);
   --backdrop-hue-rotate-30: hue-rotate(30deg);

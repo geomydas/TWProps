@@ -1,4 +1,4 @@
-:where(html) {
+*:where(html) {
   --grid-auto: auto;
   --grid-span-1: span 1 / span 1;
   --grid-span-2: span 2 / span 2;

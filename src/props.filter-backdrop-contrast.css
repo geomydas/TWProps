@@ -1,4 +1,4 @@
-:where(html) {
+*:where(html) {
   --backdrop-contrast-0: contrast(0);
   --backdrop-contrast-50: contrast(0.5);
   --backdrop-contrast-75: contrast(0.75);

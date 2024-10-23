@@ -1,4 +1,4 @@
-:where(html) {
+*:where(html) {
   --backdrop-sepia-0: sepia(0);
   --backdrop-sepia: sepia(100%);
 }

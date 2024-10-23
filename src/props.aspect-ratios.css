@@ -1,4 +1,4 @@
-:where(html) {
+*:where(html) {
   --aspect-auto: auto;
   --aspect-square: 1;
   --aspect-video: 16 / 9;
