@@ -137,7 +137,7 @@
     "shadow:transition-easings": "npx lightningcss src/props.transition-easings.css -o transition-easings.min.shadow.css --minify",
     "shadow:transition": "npx lightningcss src/props.transition.css -o transition.min.shadow.css --minify",
     "shadow:typography": "npx lightningcss src/props.typography.css -o typography.min.shadow.css --minify",
-    "shadow:z-index": "npx lightningcss src/props.z-index.css -o z-index.min.cs --minify"
+    "shadow:z-index": "npx lightningcss src/props.z-index.css -o z-index.min.css --minify"
   },
   "repository": {
     "type": "git",
