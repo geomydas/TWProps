@@ -47,7 +47,6 @@ npm install postcss-jit-props
 
 ```
 // postcss.config.js
-
 ```
 
 ### Option 3 (Unpkg CDN)
