@@ -1,3 +1,5 @@
 *.min.css
 *.min.shadow.css
+.min.css
+.min.shadow.css
 node_modules/
